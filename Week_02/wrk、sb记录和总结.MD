@@ -24,7 +24,7 @@ wrk -t12 -c100 -d30s http://www.baidu.com
 
 > java -jar -Xmx1g -Xms1g gateway-server-0.0.1-SNAPSHOT.jar
 
-![image-20201028191536324](F:\gitee\java-core-notes\简化\web基础\image-20201028191536324.png)
+![image-20201028191536324](wrk、sb记录和总结.assets\\image-20201028191536324.png)
 
 ![image-20201028191643354](wrk、sb记录和总结.assets\image-20201028191643354.png)
 

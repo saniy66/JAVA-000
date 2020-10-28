@@ -16,7 +16,7 @@ java -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysi
 
 > java -XX:+PrintGCDetails GCLogAnalysis
 
-![image-20201028174701147](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028174701147.png)
+![image-20201028174701147](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028174701147.png)
 
 
 
@@ -24,9 +24,9 @@ java -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysi
 
 > java -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
 
-![image-20201028174831311](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028174831311.png)
+![image-20201028174831311](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028174831311.png)
 
-![image-20201028180312070](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028180312070.png)
+![image-20201028180312070](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028180312070.png)
 
 
 
@@ -36,7 +36,7 @@ jdk 8 物理内存的1/4
 
 > java -Xmx128m -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
 
-![image-20201028181633126](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028181633126.png)
+![image-20201028181633126](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028181633126.png)
 
 
 
@@ -44,9 +44,9 @@ jdk 8 物理内存的1/4
 
 > java -Xmx512m -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
 
-![image-20201028181825451](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028181825451.png)
+![image-20201028181825451](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028181825451.png)
 
-![image-20201028181925130](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028181925130.png)
+![image-20201028181925130](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028181925130.png)
 
 不再报错，但GC次数很多
 
@@ -54,7 +54,7 @@ jdk 8 物理内存的1/4
 
 > java -Xmx1024m -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
 
- ![image-20201028182141742](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028182141742.png)
+ ![image-20201028182141742](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028182141742.png)
 
 **GC次数相对于512m时，减少。 说明增大内存，可以降低OOM概率**
 
@@ -70,11 +70,11 @@ jdk 8 物理内存的1/4
 
 ###### java -XX:+UseSerialGC -Xms512m -Xmx512m -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
 
-![image-20201028182416909](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028182416909.png)
+![image-20201028182416909](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028182416909.png)
 
 
 
-![image-20201028183912253](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183912253.png)
+![image-20201028183912253](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183912253.png)
 
 
 
@@ -84,11 +84,11 @@ jdk 8 物理内存的1/4
 
 ###### java -XX:+UseParallelGC -Xms512m -Xmx512m -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
 
-![image-20201028183635623](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183635623.png)
+![image-20201028183635623](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183635623.png)
 
 
 
-![image-20201028183711127](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183711127.png)
+![image-20201028183711127](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183711127.png)
 
 
 
@@ -98,9 +98,9 @@ jdk 8 物理内存的1/4
 
 ###### java -XX:+UseConcMarkSweepGC -Xms512m -Xmx512m -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
 
-![image-20201028183729515](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183729515.png)
+![image-20201028183729515](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183729515.png)
 
-![image-20201028183802007](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183802007.png)
+![image-20201028183802007](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183802007.png)
 
 
 
@@ -110,9 +110,9 @@ jdk 8 物理内存的1/4
 
 ###### java -XX:+UseG1GC -Xms512m -Xmx512m -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
 
-![image-20201028183827951](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183827951.png)
+![image-20201028183827951](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183827951.png)
 
-![image-20201028183848815](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183848815.png)
+![image-20201028183848815](串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028183848815.png)
 
 ---------
 
@@ -265,17 +265,17 @@ G1收集器是一款面向服务端应用的垃圾收集器，目前是JDK9的�
 
 **图示收集器**
 
-<img src="G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028184834988.png" alt="image-20201028184834988" style="zoom: 50%;" />
+<img src="串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028184834988.png" alt="image-20201028184834988" style="zoom: 50%;" />
 
  
 
-<img src="G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028190225747.png" alt="image-20201028190225747" style="zoom:67%;" />
+<img src="串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028190225747.png" alt="image-20201028190225747" style="zoom:67%;" />
 
-<img src="G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028190145973.png" alt="image-20201028190145973" style="zoom:67%;" />
+<img src="串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028190145973.png" alt="image-20201028190145973" style="zoom:67%;" />
 
-<img src="G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028190120941.png" alt="image-20201028190120941" style="zoom:67%;" />
+<img src="串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028190120941.png" alt="image-20201028190120941" style="zoom:67%;" />
 
-<img src="G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028190057616.png" alt="image-20201028190057616" style="zoom: 67%;" />
+<img src="串行、并行、 CMS 、G1 GC 记录和总结.assets\image-20201028190057616.png" alt="image-20201028190057616" style="zoom: 67%;" />
 
 --------
 

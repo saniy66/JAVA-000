@@ -26,7 +26,7 @@ wrk -t12 -c100 -d30s http://www.baidu.com
 
 ![image-20201028191536324](F:\gitee\java-core-notes\简化\web基础\image-20201028191536324.png)
 
-![image-20201028191643354](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028191643354.png)
+![image-20201028191643354](wrk、sb记录和总结.assets\image-20201028191643354.png)
 
 
 
@@ -38,7 +38,7 @@ wrk -t12 -c100 -d30s http://www.baidu.com
 
 **执行完的信息：**
 
-![image-20201028192023752](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028192023752.png)
+![image-20201028192023752](wrk、sb记录和总结.assets\image-20201028192023752.png)
 
 
 
@@ -52,21 +52,21 @@ wrk -t12 -c100 -d30s http://www.baidu.com
 
 
 
-![image-20201028192503424](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028192503424.png)
+![image-20201028192503424](wrk、sb记录和总结.assets\image-20201028192503424.png)
 
 
 
 > jvisualvm
 
-![image-20201028192724882](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028192724882.png)
+![image-20201028192724882](wrk、sb记录和总结.assets\image-20201028192724882.png)
 
-![image-20201028192735266](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028192735266.png)
+![image-20201028192735266](wrk、sb记录和总结.assets\image-20201028192735266.png)
 
-![image-20201028192904208](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028192904208.png)
+![image-20201028192904208](wrk、sb记录和总结.assets\image-20201028192904208.png)
 
 **只看内存**
 
-![image-20201028193004658](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028193004658.png)
+![image-20201028193004658](wrk、sb记录和总结.assets\image-20201028193004658.png)
 
 
 
@@ -76,17 +76,17 @@ wrk -t12 -c100 -d30s http://www.baidu.com
 
 > sb -u http://localhost:8088/api/hello -c 20 -N 60
 
-![image-20201028193552464](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028193552464.png)
+![image-20201028193552464](wrk、sb记录和总结.assets\image-20201028193552464.png)
 
 执行完后：
 
-![image-20201028193642966](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028193642966.png)
+![image-20201028193642966](wrk、sb记录和总结.assets\image-20201028193642966.png)
 
 
 
 
 
-![image-20201028193729955](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028193729955.png)
+![image-20201028193729955](wrk、sb记录和总结.assets\image-20201028193729955.png)
 
 
 
@@ -94,21 +94,21 @@ wrk -t12 -c100 -d30s http://www.baidu.com
 
 
 
-![image-20201028193903432](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028193903432.png)
+![image-20201028193903432](wrk、sb记录和总结.assets\image-20201028193903432.png)
 
-![image-20201028193846620](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028193846620.png)
+![image-20201028193846620](wrk、sb记录和总结.assets\image-20201028193846620.png)
 
-![image-20201028193935856](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028193935856.png)
+![image-20201028193935856](wrk、sb记录和总结.assets\image-20201028193935856.png)
 
 
 
 压测前：
 
-![image-20201028194121951](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028194121951.png)
+![image-20201028194121951](wrk、sb记录和总结.assets\image-20201028194121951.png)
 
 压测后：
 
-![image-20201028194058193](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028194058193.png)
+![image-20201028194058193](wrk、sb记录和总结.assets\image-20201028194058193.png)
 
 
 
@@ -120,33 +120,33 @@ wrk -t12 -c100 -d30s http://www.baidu.com
 
 > jmc
 
-![image-20201028194509041](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028194509041.png)
+![image-20201028194509041](wrk、sb记录和总结.assets\image-20201028194509041.png)
 
-![image-20201028194533570](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028194533570.png)
-
-
+![image-20201028194533570](wrk、sb记录和总结.assets\image-20201028194533570.png)
 
 
 
-![image-20201028194634098](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028194634098.png)
+
+
+![image-20201028194634098](wrk、sb记录和总结.assets\image-20201028194634098.png)
 
 
 
 > sb -u http://localhost:8088/api/hello -c 20 -N 60
 
-![image-20201028194925970](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028194925970.png)
+![image-20201028194925970](wrk、sb记录和总结.assets\image-20201028194925970.png)
 
 
 
 
 
-![image-20201028194957638](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028194957638.png)
+![image-20201028194957638](wrk、sb记录和总结.assets\image-20201028194957638.png)
 
 
 
 
 
-![image-20201028195150618](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028195150618.png)
+![image-20201028195150618](wrk、sb记录和总结.assets\image-20201028195150618.png)
 
 
 
@@ -160,23 +160,23 @@ wrk -t12 -c100 -d30s http://www.baidu.com
 
 > java -jar -Xms512m -Xmx512m -XX:+UseSerialGC -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps gateway-server-0.0.1-SNAPSHOT.jar
 
-![image-20201028200438606](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028200438606.png)
+![image-20201028200438606](wrk、sb记录和总结.assets\image-20201028200438606.png)
 
-![image-20201028200636920](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028200636920.png)
+![image-20201028200636920](wrk、sb记录和总结.assets\image-20201028200636920.png)
 
-![image-20201028200859318](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028200859318.png)
+![image-20201028200859318](wrk、sb记录和总结.assets\image-20201028200859318.png)
 
 **并行GC**
 
 > java -jar -Xms512m -Xmx512m -XX:+UseParallelGC -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps gateway-server-0.0.1-SNAPSHOT.jar
 
-![image-20201028201124409](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028201124409.png)
+![image-20201028201124409](wrk、sb记录和总结.assets\image-20201028201124409.png)
 
-![image-20201028201012091](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028201012091.png)
+![image-20201028201012091](wrk、sb记录和总结.assets\image-20201028201012091.png)
 
 
 
-![image-20201028201026399](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028201026399.png)
+![image-20201028201026399](wrk、sb记录和总结.assets\image-20201028201026399.png)
 
 
 
@@ -186,27 +186,27 @@ wrk -t12 -c100 -d30s http://www.baidu.com
 
 > java -jar -Xms512m -Xmx512m -XX:+UseConcMarkSweepGC -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps gateway-server-0.0.1-SNAPSHOT.jar
 
-![image-20201028201142294](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028201142294.png)
+![image-20201028201142294](wrk、sb记录和总结.assets\image-20201028201142294.png)
 
 
 
 ![image-20201028201213442](F:\gitee\java-core-notes\简化\web基础\image-20201028201213442.png)
 
-![image-20201028201229910](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028201229910.png)
+![image-20201028201229910](wrk、sb记录和总结.assets\image-20201028201229910.png)
 
 **G1 GC**
 
 > java -jar -Xms512m -Xmx512m -XX:+UseG1GC -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps gateway-server-0.0.1-SNAPSHOT.jar
 
-![image-20201028201311158](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028201311158.png)
+![image-20201028201311158](wrk、sb记录和总结.assets\image-20201028201311158.png)
 
 
 
-![image-20201028201433302](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028201433302.png)
+![image-20201028201433302](wrk、sb记录和总结.assets\image-20201028201433302.png)
 
 
 
-![image-20201028201442320](G:\学习资源\微服务课程\我的作业\JAVA-000\Week_02\wrk、sb记录和总结.assets\image-20201028201442320.png)
+![image-20201028201442320](wrk、sb记录和总结.assets\image-20201028201442320.png)
 
 
 
